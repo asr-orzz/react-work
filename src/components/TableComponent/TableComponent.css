@@ -1,0 +1,92 @@
+/* TableComponent.css */
+
+/* Container styling */
+div {
+    margin: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color:	#468585;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: 	#50B498;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color:	#50B498;
+    color: white;
+  }
+  
+  /* Select dropdown styling */
+  select {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Action buttons in table */
+  td button {
+    background-color: #9CDBA6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  td button:hover {
+    background-color: #50B498;
+  }
+  
+  /* Alternate row coloring */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Specific service background colors */
+  tbody tr.service-Aeroplane {
+    background-color: #ffe5e5; /* Light pink peach */
+  }
+  
+  tbody tr.service-Taxi {
+    background-color: #e5f7ff; /* Light blue */
+  }
+  
+  tbody tr.service-Huehuheuhue {
+    background-color: #e5ffe5; /* Light green */
+  }
+  
+  @media (max-width: 768px) {
+    /* Responsive table */
+    table {
+      width: 100%;
+    }
+    th, td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  
